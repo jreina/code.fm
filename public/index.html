@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>code.fm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header>
+    <h1>code<span>.fm</span></h1>
+    <p>infinite focus music</p>
+  </header>
+
+  <div class="main">
+    <div class="viz-container">
+      <div class="viz-ring" id="vizRing">
+        <div class="viz-inner">
+          <div class="track-number" id="trackNumber">0</div>
+          <div class="track-label">track</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="track-info">
+      <div class="prompt" id="trackPrompt">press play to begin</div>
+      <div class="status" id="trackStatus"></div>
+    </div>
+
+    <div class="progress-container">
+      <span class="progress-time" id="timeCurrent">0:00</span>
+      <div class="progress-bar" id="progressBar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <span class="progress-time" id="timeTotal">0:00</span>
+    </div>
+
+    <div class="controls">
+      <button id="btnPrev" disabled title="Previous">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/>
+        </svg>
+      </button>
+      <button class="play-btn" id="btnPlay" title="Play">
+        <svg id="iconPlay" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg id="iconPause" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+          <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+        </svg>
+      </button>
+      <button id="btnNext" disabled title="Next">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="volume">
+      <svg id="volumeIcon" viewBox="0 0 24 24" fill="currentColor">
+        <path id="volPath" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8.3v7.4a4.5 4.5 0 0 0 2.5-3.7zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1A9 9 0 0 0 14 3.2z"/>
+      </svg>
+      <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+    </div>
+  </div>
+
+  <div class="playlist-section">
+    <div class="playlist" id="playlist"></div>
+  </div>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="app.js"></script>
+</body>
+</html>

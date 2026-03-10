@@ -1,0 +1,68 @@
+[
+  {
+    "prompt": "ambient electronic, lo-fi, downtempo, chill, atmospheric pads, soft synths, warm bass, minimal beats, coding music, focus, instrumental",
+    "bpm": 85,
+    "key_scale": "C Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "deep house, minimal techno, hypnotic groove, subtle percussion, warm analog synths, late night coding, instrumental, focus music",
+    "bpm": 120,
+    "key_scale": "A Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "chillwave, synthwave, retro electronic, dreamy pads, arpeggiated synths, soft drums, nostalgic, instrumental, coding vibes",
+    "bpm": 95,
+    "key_scale": "D Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "ambient, drone, ethereal textures, granular synthesis, slow evolving pads, meditative, deep focus, instrumental, concentration music",
+    "bpm": 70,
+    "key_scale": "E Minor",
+    "audio_duration": 200
+  },
+  {
+    "prompt": "jazzy lo-fi beats, mellow piano chords, vinyl crackle, brushed drums, upright bass, warm, cozy, instrumental, study music",
+    "bpm": 80,
+    "key_scale": "F Major",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "minimal ambient, soft piano, sparse electronics, gentle textures, calm, peaceful, zen, instrumental, focus and flow music",
+    "bpm": 65,
+    "key_scale": "B Flat Major",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "IDM, glitch, complex rhythms, pristine digital synths, detailed sound design, cerebral, intricate, instrumental, programming music",
+    "bpm": 110,
+    "key_scale": "C Sharp Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "trip hop, downtempo, moody basslines, scratchy vinyl, cinematic strings, noir atmosphere, instrumental, late night coding",
+    "bpm": 88,
+    "key_scale": "D Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "neo-classical, modern classical, solo piano, gentle strings, minimalist composition, elegant, contemplative, instrumental, deep focus",
+    "bpm": 72,
+    "key_scale": "A Minor",
+    "audio_duration": 200
+  },
+  {
+    "prompt": "future garage, ethereal vocals chopped, shuffled beats, deep sub bass, atmospheric, UK electronic, instrumental, focus music",
+    "bpm": 130,
+    "key_scale": "F Minor",
+    "audio_duration": 180
+  },
+  {
+    "prompt": "ambient techno, dub techno, deep reverb, echoing chords, hypnotic loops, minimal percussion, spacious, instrumental, concentration",
+    "bpm": 118,
+    "key_scale": "G Minor",
+    "audio_duration": 180
+  }
+]
