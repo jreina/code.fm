@@ -2,6 +2,9 @@
 
 Infinite AI-generated focus music for coding. Tracks are generated on-the-fly using an [ACE-Step](https://github.com/ace-step/ACE-Step-1.5) API, creating a never-ending playlist of instrumental music.
 
+<img width="681" height="857" alt="image" src="https://github.com/user-attachments/assets/16b00bac-5895-42f2-bb0c-ab42f740b95b" />
+
+
 ## How it works
 
 - Press play to generate your first track
